@@ -1,9 +1,9 @@
 # CPU-Scheduling
-## A Java program built to replicate a round robin CPU scheduling
+A Java program built to replicate a round robin CPU scheduling
 
 CPU scheduling algorithms are a time-saving method of running a process. Round Robin is an 
 example of a CPU scheduling method. Round Robin is a starvation-free scheduling algorithm in which all
- processes are given equal turns on the CPU with a set execution period. This prevents events from 
+processes are given equal turns on the CPU with a set execution period. This prevents events from 
 interrupting the execution of low-priority processes. The quantum time covers part, if not all, of the 
 burst time after a process is replaced by the CPU. If a process has a burst time remaining from the 
 previous path, it is routinely pushed to the end of the queue for other processes and waits for the next 
